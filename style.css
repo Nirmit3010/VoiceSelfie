@@ -1,0 +1,33 @@
+#start-btn
+{
+    width: 40%;
+} 
+#camera
+{
+    width:400px;
+    height: 250px;
+    border:3px solid rgb(0, 0, 0);
+}
+#logo_img
+{
+    width: 100px;
+    border-radius: 100px;
+}
+#textbox
+{
+    width: 300px;
+}
+body {
+    background-image: linear-gradient(to right top, #b85f3c, #ad2c1b, #a52413, #963123, #740b0b);
+    font-weight: 500;
+    color:rgb(0, 0, 0);
+}
+h1{
+    font-family: "Stint Ultra Condensed";
+}
+h3{
+    font-family: "Crimson Text";
+}
+h4{
+    font-family: "Abel";
+}

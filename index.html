@@ -1,0 +1,46 @@
+<html>
+
+<head>
+    <title>My Selfie App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Stint+Ultra+Condensed|Crimson+Text|Abel&display=swap"
+		rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.min.js" integrity="sha512-dQIiHSl2hr3NWKKLycPndtpbh5iaHLo6MwrXm7F0FM5e+kL2U16oE9uIwPHUl6fQBeCthiEuV/rzP3MiAB8Vfw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <link href="style.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="container">
+        <center>
+            <a href="" id="link" download="selfiecam.png"></a>
+            <h1>Voice Selfie App
+                <img src="outline_add_a_photo_black_24dp.png" id="logo">
+            </h1>
+            <hr>
+            <h4 style="color:black;">Click ALLOW on the pop-up that appears.</h4>
+
+            <div class="form-group">
+                <h3>Say "Click"</h3>
+                <h4>Your voice output: </h4>
+                <textarea id="textbox" class="form-control" readonly="true"></textarea>
+            </div>
+            <button class="btn btn-warning" onclick="start()">Start</button>
+            <h4>Press the Start button</h4>
+            <h4>Your webcam : </h4>
+            <div id="camera"></div>
+            <br>
+            <h4>Your Selfie:</h4>
+            <div id="result"></div>
+
+        </center>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
